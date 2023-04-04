@@ -1,0 +1,18 @@
+package homework;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		AsteriskLogger starLog = new AsteriskLogger();
+		SpacedLogger errorLog = new SpacedLogger();
+		
+		starLog.log("Tweedle");
+		starLog.error("Dee");
+		
+		errorLog.log("Tweedle");
+		errorLog.error("Dum");
+
+	}
+
+}
